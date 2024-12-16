@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+.project h2 {
+    color: #555;
+}
+
+.project p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.project a {
+    color: #1d72b8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}
